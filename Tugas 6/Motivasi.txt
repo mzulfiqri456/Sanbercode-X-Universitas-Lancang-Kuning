@@ -1,5 +1,9 @@
 Motivasi Peserta
-1. Saya Sangat ingin belajar menjadi progamer
-2. Saya ingin mencapai cita cita saya menjadi seorang progamer
-3. Biar dapat kerja 
-4. Banyak materinya
+
+Saya sangat antusias untuk mengikuti bootcamp Laravel Web Dev karena saya percaya itu akan menjadi
+langkah yang signifikan dalam meningkatkan kemampuan saya dalam pengembangan web. Saya berharap bootcamp
+ini akan memberi saya pemahaman yang kuat tentang konsep-konsep dasar dan canggih dalam penggunaan 
+framework Laravel, serta keterampilan praktis yang diperlukan untuk mengembangkan aplikasi web yang 
+tangguh dan efisien. Dengan menyelesaikan bootcamp ini, saya berharap dapat membuka peluang baru dalam 
+karier saya, baik itu dalam mencari pekerjaan baru, meningkatkan kualitas proyek yang saya kerjakan, 
+atau bahkan memulai usaha sendiri dalam pengembangan perangkat lunak.
