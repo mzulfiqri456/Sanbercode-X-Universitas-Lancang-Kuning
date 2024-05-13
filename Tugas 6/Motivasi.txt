@@ -6,8 +6,4 @@ ini akan memberi saya pemahaman yang kuat tentang konsep-konsep dasar dan canggi
 framework Laravel, serta keterampilan praktis yang diperlukan untuk mengembangkan aplikasi web yang 
 tangguh dan efisien. Dengan menyelesaikan bootcamp ini, saya berharap dapat membuka peluang baru dalam 
 karier saya, baik itu dalam mencari pekerjaan baru, meningkatkan kualitas proyek yang saya kerjakan, 
-<<<<<<< HEAD
 atau bahkan memulai usaha sendiri dalam pengembangan perangkat lunak.
-=======
-atau bahkan memulai usaha sendiri dalam pengembangan perangkat lunak.
->>>>>>> d5f0bac663167d4c57f403abddab79b251479b24
