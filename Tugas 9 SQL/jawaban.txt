@@ -1,0 +1,68 @@
+Jawaban Soal Nomor 1
+CREATE DATABASE library;
+
+Jawaban Soal Nomor 2
+USER
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    password VARCHAR(255)
+);
+
+CATEGORIES
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255)
+);
+
+BOOKS
+CREATE TABLE books (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    summary TEXT,
+    stock INT,
+    category_id INT,
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+
+Jawaban Soal Nomor 3
+USER
+INSERT INTO users (name, email, password) VALUES 
+('mzulfiqri', 'mzulfiqrif@gmail.com', 'zul123'),
+('FIQRI', 'zul456@gmail.com', 'fiqri123');
+
+CATEGORIES
+INSERT INTO categories (name) VALUES 
+('Novel'),
+('Manga'),
+('Comic'),
+('History'),
+('IT');
+
+BOOKS
+INSERT INTO books (title, summary, stock, category_id) VALUES 
+('One piece', 'The series focuses on Monkey D Luffy, a young man made of rubber', 50, 2),
+('Laskar Pelangi', 'Belitung is known for its richness in tin, making it one of Indonesia''s richest islands', 25, 1),
+('mzulfiqri', 'Mitsuha Miyamizu, a high school girl living in the fictional town of Itomori in Gifu Prefecture''s', 15, 2);
+
+Jawaban Soal Nomor 4
+a. Mengambil Data users
+SELECT id, name, email FROM users;
+
+b. Mengambil Data books
+* SELECT * FROM books WHERE stock > 20;
+* SELECT * FROM books WHERE title LIKE '%one%' OR title LIKE '%pela%' OR title LIKE '%zul%';
+
+c. Menampilkan data items books dengan categories
+SELECT b.title, b.summary, b.stock, b.category_id, c.name AS category
+FROM books AS b
+JOIN categories AS c ON b.category_id = c.id;
+
+Jawaban Soal Nomor 5
+UPDATE books
+SET stock = 30
+WHERE title = 'One Piece';
+
+
+
