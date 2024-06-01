@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('judul')
-tabel
+Tabel
 @endsection
 @section('content')
 <table class="table table-bordered">
